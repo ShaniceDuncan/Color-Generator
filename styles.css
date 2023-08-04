@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9eeba;
+}
+
+.page__title__container {
+    width: fit-content;
+    background-color: bisque;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    border: 2px solid darkblue;
+}
+.page__title__container h1 {
+    font-size: 1.5rem;
+    color: darkblue;
+}
+
+.color__generation__box {
+    width: 70%;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    row-gap: 3rem;
+}
+.color__box__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 2rem;
+}
+
+.first__color__box {
+    background-color: #e3e3e3;
+    padding: 2rem 4rem;
+}
+.second__color__box {
+    background-color: #e3e3e3;
+    padding: 2rem 4rem;
+}
+.third__color__box {
+    background-color: #e3e3e3;
+    padding: 2rem 4rem;
+}
+
+.button__container {
+    width: fit-content;
+    height: auto;
+}
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+}
+
+
+
+/*-------------------------------------- Tablet --------------------------------------*/
+
+@media screen and (max-width: 992px) {
+    .page__title__container {
+        width: fit-content;
+        background-color: bisque;
+        margin: 4.5rem auto;
+        padding: 3rem 7.5rem;
+        border: 2px solid darkblue;
+    }
+    .page__title__container h1 {
+        font-size: 2rem;
+        color: darkblue;
+    }
+    
+    .color__generation__box {
+        width: 90%;
+        height: auto;
+        background-color: white;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 2rem;
+        row-gap: 5rem;
+    }
+    .color__box__container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    
+    .first__color__box {
+        width: 90%;
+        background-color: #e3e3e3;
+        padding: 2rem 4rem;
+    }
+    .second__color__box {
+        width: 90%;
+        background-color: #e3e3e3;
+        padding: 2rem 4rem;
+    }
+    .third__color__box {
+        width: 90%;
+        background-color: #e3e3e3;
+        padding: 2rem 4rem;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    
+    .button__container {
+        width: fit-content;
+        height: auto;
+    }
+    button {
+        background-color: darkblue;
+        font-size: 1.125rem;
+        color: white;
+        padding: 2rem 4rem;
+        outline: none;
+        border: none;
+    }    
+}
+
+
+
+
+/*-------------------------------------- Mobile --------------------------------------*/
+
+@media screen and (max-width: 767px) {
+    .page__title__container {
+        width: fit-content;
+        background-color: bisque;
+        margin: 2.5rem 1rem;
+        padding: 1.5rem 3rem;
+        border: 2px solid darkblue;
+    }
+    .page__title__container h1 {
+        font-size: 1.5rem;
+        color: darkblue;
+    }
+    
+    .color__generation__box {
+        width: 90%;
+        height: auto;
+        background-color: white;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+        row-gap: 3rem;
+    }
+    .color__box__container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    
+    .first__color__box {
+        width: 90%;
+        background-color: #e3e3e3;
+        padding: 2rem 4rem;
+    }
+    .second__color__box {
+        width: 90%;
+        background-color: #e3e3e3;
+        padding: 2rem 4rem;
+    }
+    .third__color__box {
+        width: 90%;
+        background-color: #e3e3e3;
+        padding: 2rem 4rem;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    
+    .button__container {
+        width: fit-content;
+        height: auto;
+    }
+    button {
+        background-color: darkblue;
+        font-size: 1.125rem;
+        color: white;
+        padding: 1rem 2rem;
+        outline: none;
+        border: none;
+    }  
+}
